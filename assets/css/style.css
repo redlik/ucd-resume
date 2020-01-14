@@ -11,6 +11,10 @@
     background: #fff;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home
 {
     background-color: #e67e22;
@@ -325,4 +329,38 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+
+/* ------- Contact form ---------*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #3498db;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        min-height: 240px;
+        max-width: 50%;
+    }
 }
